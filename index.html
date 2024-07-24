@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="left-section">
+        <div class="odin-div">
+            <img id="odin-logo" src="assets/odin-lined.png" alt="">
+            <div class="odin-text">ODIN</div>
+        </div>
+        <div class="background-credit">Photo by Halie West on Unsplash</div>
+    </div>
+    <div class="right-section">
+        <div class="top-container">
+            <div class="text-1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
+            <span>Sign up <em>now</em> to get started</span>
+            <div class="text-2">You <em>know</em> you want to.</div>
+        </div>
+        <div class="form-container">
+            <form>
+                <legend>Let's do this!</legend>
+                <div class="form-group">
+                    <div class="sub-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Thor">
+                    </div>
+                    <div class="sub-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Odinson">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="sub-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="sub-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="text" id="phone-number" name="phone-number" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="sub-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    </div>
+                    <div class="sub-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="bottom-container">
+            <button class="create-button">Create Account</button>
+            <div class="existing-account">
+                <div class="existing-account-text">Already have an account?</div>
+                <a href="https://www.google.com/">
+                    <span class="login-link">Log in</span>
+                  </a>
+        </div>
+    </div>
+</body>
+</html>
